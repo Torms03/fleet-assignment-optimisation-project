@@ -6,32 +6,31 @@ This project involves optimizing the assignment of aircraft to flights for Briti
 
 1. [Project Overview](#project-overview)
 2. [Dependencies](#dependencies)
-3. [Data Input](#data-input)
-4. [Optimization Problem Setup](#optimization-problem-setup)
-5. [Solving the Problem](#solving-the-problem)
-6. [Results](#results)
 
-## Project Overview
+
+## 1. Project Overview
 
 The project focuses on optimizing aircraft assignments to minimize the total cost using the `PuLP` library for linear programming. It considers:
 - Fleet availability based on the 2019 BA fleet
 - Aircraft cost data as per Eurocontrol statistics
 - Simulated demand based on aircraft capacity
 
-The solution will ensure that:
+The solution will aim to ensure that:
 - Each flight is assigned exactly one aircraft.
 - The aircraft meets the simulated demand.
 - Aircraft type availability is not exceeded.
+- Flights are able to fly the distance required
 - The total assignment cost is minimized.
 
-## Dependencies
+## 2. Dependencies
 
-To run this code, you'll need the following Python libraries:
+To run these code, you'll need the following Python libraries:
 - `numpy`
 - `pandas`
 - `pulp`
+- `deap`
 
 You can install them using `pip`:
 
 ```bash
-pip install numpy pandas pulp
+pip install numpy pandas pulp deap
