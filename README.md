@@ -1,6 +1,6 @@
 # Fleet Assignment Optimisation Project
 
-This project involves optimising the assignment of aircraft to flights for British Airways (BA) on 1st September 2019. The goal is to minimise the total cost of assigning aircraft to flights while ensuring that demand is met, each flight gets assigned exactly one aircraft and the fleet size is respected. This repository presents a comparative study of three optimisation techniques applied to the fleet assignment problem: **Linear Programming (LP)**, **Genetic Algorithm (GA)** and **Ant Colony Optimisation (ACO)**. 
+This project involves optimising the assignment of aircraft types to flights for British Airways (BA) on 1st September 2019. The goal is to minimise the total cost of assigning aircraft types to flights while ensuring that demand is met, each flight gets assigned exactly one aircraft and the fleet size is respected. This repository presents a comparative study of three optimisation techniques applied to the fleet assignment problem: **Integer Linear Programming (ILP)**, **Genetic Algorithm (GA)** and **Ant Colony Optimisation (ACO)**. 
 ## Project Structure
 
 The repository is organised into the following directories:
@@ -16,9 +16,9 @@ This folder contains the jupyter notebook used for:
 ### 2. `Code for Model development/`
 
 This folder includes the implementations of the three optimisation models:
-- `Integer_Linear_Programming_Model.py` – implementation using the PuLP library
-- `Genetic_Algorithm_Model.py` – implementation using the DEAP framework
-- `Ant_Colony_Model.py` – custom implementation inspired by ant colony behaviour
+- `Integer_Linear_Programming_Model.py` 
+- `Genetic_Algorithm_Model.py` 
+- `Ant_Colony_Model.py` 
 
 Each script encapsulates the relevant optimisation logic, objective functions and constraint handling specific to the chosen technique.
 
