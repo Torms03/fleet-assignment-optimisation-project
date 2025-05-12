@@ -1,6 +1,6 @@
 # Fleet Assignment Optimisation Project
 
-This project involves optimising the assignment of aircraft to flights for British Airways (BA) on 1st September 2019. The goal is to minimise the total cost of assigning aircraft to flights while ensuring that demand is met, each flight gets assigned exactly one aircraft and the fleet size is respected. This repository presents a comparative study of three optimisation techniques applied to the fleet assignment problem: **Linear Programming (LP)**, **Genetic Algorithm (GA)**, and **Ant Colony Optimisation (ACO)**. 
+This project involves optimising the assignment of aircraft to flights for British Airways (BA) on 1st September 2019. The goal is to minimise the total cost of assigning aircraft to flights while ensuring that demand is met, each flight gets assigned exactly one aircraft and the fleet size is respected. This repository presents a comparative study of three optimisation techniques applied to the fleet assignment problem: **Linear Programming (LP)**, **Genetic Algorithm (GA)** and **Ant Colony Optimisation (ACO)**. 
 ## Project Structure
 
 The repository is organised into the following directories:
